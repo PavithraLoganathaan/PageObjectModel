@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54306" started-at="2020-08-09T15:16:27 IST" finished-at="2020-08-09T15:17:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54306" started-at="2020-08-09T15:16:27 IST" finished-at="2020-08-09T15:17:21 IST">
+      <class name="POM.LoginTestCase">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:POM.LoginTestCase@1f36e637]" name="login" duration-ms="17221" started-at="2020-08-09T15:16:27 IST" data-provider="LoginDataProvider" finished-at="2020-08-09T15:16:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:POM.LoginTestCase@1f36e637]" name="login" duration-ms="13853" started-at="2020-08-09T15:16:44 IST" data-provider="LoginDataProvider" finished-at="2020-08-09T15:16:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:POM.LoginTestCase@1f36e637]" name="login" duration-ms="9679" started-at="2020-08-09T15:16:58 IST" data-provider="LoginDataProvider" finished-at="2020-08-09T15:17:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:POM.LoginTestCase@1f36e637]" name="login" duration-ms="13408" started-at="2020-08-09T15:17:08 IST" data-provider="LoginDataProvider" finished-at="2020-08-09T15:17:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- POM.LoginTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
